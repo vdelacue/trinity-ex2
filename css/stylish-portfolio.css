@@ -103,6 +103,13 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #1D809F;
+  color: aliceblue;
+}
+
+.masthead h3 {
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #1D809F;
+  color: aliceblue;
 }
 
 @media (min-width: 992px) {
@@ -111,6 +118,8 @@ h6 {
   }
   .masthead h1 {
     font-size: 5.5rem;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px #1D809F;
+  color: aliceblue;
   }
 }
 
@@ -224,6 +233,8 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #1D809F;
+  color: aliceblue;
 }
 
 .portfolio-item {
@@ -362,4 +373,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.home-text {
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
